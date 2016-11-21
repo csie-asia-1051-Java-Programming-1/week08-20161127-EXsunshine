@@ -4,12 +4,19 @@
  * Date: 2016/11/21
  * Author: 1050210XX 周永振老師
  */
-
+import java.util.*;
 public class ex01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+Scanner scn = new Scanner(System.in);
+int a = scn.nextInt();
+String sum ="";
+while(a>0){
+	sum =a%2+sum;
+	a=a/2;
+}
+System.out.print(sum);
 	}
 
 }
